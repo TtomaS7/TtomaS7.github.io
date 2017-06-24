@@ -1,0 +1,342 @@
+/* line 6, ../sass/screen.scss */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 14, ../sass/screen.scss */
+html {
+  height: 100%;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  height: 100%;
+  font: 14px/24px , Tahoma, sans-serif;
+  font-family: 'Patrick Hand SC', cursive;
+  background-color: #ebebeb;
+}
+
+/* line 23, ../sass/screen.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../sass/screen.scss */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 34, ../sass/screen.scss */
+a, a:hover {
+  text-decoration: none;
+}
+
+/* line 40, ../sass/screen.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 45, ../sass/screen.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 47, ../sass/screen.scss */
+.left {
+  float: left;
+}
+
+/* line 48, ../sass/screen.scss */
+.right {
+  float: right;
+}
+
+/* line 49, ../sass/screen.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 51, ../sass/screen.scss */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 56, ../sass/screen.scss */
+.container p {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* line 61, ../sass/screen.scss */
+header {
+  position: relative;
+  background: #2f2452;
+  padding: 10px;
+}
+
+/* line 71, ../sass/screen.scss */
+.logo {
+  float: left;
+}
+
+/* line 77, ../sass/screen.scss */
+.nav {
+  float: right;
+}
+
+/* line 79, ../sass/screen.scss */
+.nav li {
+  float: left;
+}
+
+/* line 80, ../sass/screen.scss */
+.nav li a,
+#touch-menu {
+  display: block;
+  padding: 15px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* line 88, ../sass/screen.scss */
+.nav li a:hover,
+#touch-menu:hover {
+  color: #77eee6;
+}
+
+/* line 93, ../sass/screen.scss */
+#touch-menu {
+  display: none;
+}
+
+/* line 95, ../sass/screen.scss */
+.logo a {
+  color: #77eee6;
+  padding-left: 50px;
+}
+
+/* line 102, ../sass/screen.scss */
+.image img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 108, ../sass/screen.scss */
+.image h2 {
+  position: absolute;
+  text-align: center;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+/* line 122, ../sass/screen.scss */
+.image span {
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+  right: 500px;
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 100%;
+}
+
+/* line 133, ../sass/screen.scss */
+.btn {
+  position: absolute;
+  top: 500px;
+  padding: 0px 350px 0px 350px;
+}
+
+/* line 140, ../sass/screen.scss */
+.btn-class {
+  display: inline-block;
+  border: 2px solid #77EEE6;
+  color: #77EEE6;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  font-family: Arial Black;
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  padding: 10px 40px;
+  box-shadow: 0 1px 0 0 #77EEE6,0 -1px 0 0 #77EEE6;
+  -moz-box-shadow: 0 1px 0 0 #77EEE6,0 -1px 0 0 #77EEE6;
+  -webkit-box-shadow: 0 1px 0 0 #77EEE6,0 -1px 0 0 #77EEE6;
+  text-shadow: 0 1px 0 #FFFFFF;
+  background-color: #F8F4FC;
+}
+
+/* line 160, ../sass/screen.scss */
+.btn-class:hover, .btn-class:active {
+  border: 2px solid #77EEE6;
+  color: #0D0D0D;
+  background-color: #77EEE6;
+}
+
+/* line 166, ../sass/screen.scss */
+.content-global {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* line 173, ../sass/screen.scss */
+.content p {
+  float: right;
+  margin-top: 40px;
+}
+/* line 178, ../sass/screen.scss */
+.content h1 {
+  text-align: center;
+}
+
+/* line 183, ../sass/screen.scss */
+.content img {
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  height: auto;
+}
+
+/* line 192, ../sass/screen.scss */
+.city img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+}
+
+/* line 200, ../sass/screen.scss */
+.exp {
+  text-align: center;
+}
+/* line 202, ../sass/screen.scss */
+.exp h1 {
+  padding: 5px;
+}
+/* line 205, ../sass/screen.scss */
+.exp p {
+  padding: 15px;
+}
+/* line 208, ../sass/screen.scss */
+.exp hr {
+  width: 100px;
+}
+
+/* line 217, ../sass/screen.scss */
+.item {
+  padding: 100px 0 100px 0;
+}
+/* line 219, ../sass/screen.scss */
+.item .it1, .item .it2, .item .it3 {
+  display: inline-block;
+  width: 33%;
+  height: 300px;
+  padding: 5px;
+}
+/* line 226, ../sass/screen.scss */
+.item .it1 .center, .item .it2 .center, .item .it3 .center {
+  display: block;
+  margin: 0 auto;
+}
+/* line 230, ../sass/screen.scss */
+.item .it1 h1, .item .it2 h1, .item .it3 h1 {
+  text-align: center;
+}
+/* line 234, ../sass/screen.scss */
+.item .it3 {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  /* line 244, ../sass/screen.scss */
+  .header {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+  }
+
+  /* line 255, ../sass/screen.scss */
+  .logo img {
+    height: 30px;
+  }
+
+  /* line 258, ../sass/screen.scss */
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  /* line 265, ../sass/screen.scss */
+  .nav li {
+    float: none;
+  }
+
+  /* line 266, ../sass/screen.scss */
+  .nav li a {
+    border-top: 1px solid #eee;
+    border-left: 3px solid transparent;
+    background: #fff;
+    color: #666;
+  }
+
+  /* line 272, ../sass/screen.scss */
+  .nav li:first-child a {
+    border-top: none;
+  }
+
+  /* line 276, ../sass/screen.scss */
+  #touch-menu {
+    display: block;
+    float: right;
+    margin: -10px 0px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1150px) {
+  /* line 285, ../sass/screen.scss */
+  .image span {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1223px) {
+  /* line 294, ../sass/screen.scss */
+  .container .clearfix h2, .container .clearfix p, .container .clearfix .btn-class {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 750px) {
+  /* line 302, ../sass/screen.scss */
+  .container .clearfix h2, .container .clearfix p, .container .clearfix .btn-class {
+    margin-bottom: 100px;
+  }
+}

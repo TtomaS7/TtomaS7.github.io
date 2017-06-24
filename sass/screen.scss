@@ -1,0 +1,306 @@
+$primary-color: #2f2452;
+
+$button-color: #77eee6;
+
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/24px , Tahoma, sans-serif;
+  font-family: 'Patrick Hand SC', cursive;
+
+	background-color: #ebebeb;
+}
+
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a, a:hover {
+  text-decoration: none;
+
+}
+
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float:left;}
+.right {float:right;}
+.text-right {text-align: right;}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.container  p {
+	max-width: 680px;
+	margin: 0 auto;
+}
+
+header{
+  position: relative;
+	background: #2f2452;
+  padding: 10px;
+
+}
+
+
+
+
+.logo {
+  float: left;
+
+
+
+}
+.nav {float: right;}
+
+.nav li {float: left;}
+.nav li a,
+#touch-menu {
+	display: block;
+	padding: 15px 15px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+.nav li a:hover,
+#touch-menu:hover {
+	color: #77eee6;
+}
+
+#touch-menu {display: none;}
+
+.logo a {
+  color: #77eee6;
+  padding-left: 50px;
+
+
+}
+
+.image img{
+	position	: relative;
+	max-width:  100%;
+  height: auto;
+}
+
+.image  h2 {
+	position	: absolute;
+  text-align: center;
+  color: #333;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+	top		: 200px;
+	left		: 0;
+	width		: 100%;
+}
+.image  span {
+  padding-left: 300px;
+padding-right: 300px;
+  text-align: center;
+right: 500px;
+  position: absolute;
+	top: 350px;
+	left: 0;
+	width: 100%;
+}
+
+.btn {
+	position: absolute;
+	top: 500px;
+	padding: 0px 350px 0px 350px;
+}
+
+
+.btn-class{
+
+ display: inline-block;
+ border:2px solid #77EEE6;
+ color: #77EEE6;
+ border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ font-family: Arial Black;
+ width: auto;
+ height: auto;
+ font-size: 16px;
+ padding: 10px 40px;
+ box-shadow: 0 1px 0 0 #77EEE6,0 -1px 0 0 #77EEE6;
+ -moz-box-shadow: 0 1px 0 0 #77EEE6,0 -1px 0 0 #77EEE6;
+ -webkit-box-shadow: 0 1px 0 0 #77EEE6,0 -1px 0 0 #77EEE6;
+ text-shadow: 0 1px 0 #FFFFFF;
+ background-color: #F8F4FC;
+
+}
+.btn-class:hover, .btn-class:active{
+ border:2px solid #77EEE6;
+ color: #0D0D0D;
+ background-color: #77EEE6;
+}
+
+.content-global {
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+.content {
+	 p{
+		float: right;
+		margin-top: 40px;
+
+	}
+	h1 {
+		text-align: center;
+
+	}
+}
+	.content img {
+		display: block;
+		float: left;
+		margin: 0 10px 10px 0;
+		height: auto;
+
+
+	}
+
+.city img{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	height: auto;
+
+}
+
+.exp {
+text-align: center;
+h1 {
+	padding: 5px;
+}
+p {
+	padding: 15px;
+}
+hr {
+	width: 100px;
+
+
+}
+
+}
+
+
+.item {
+padding: 100px 0 100px 0;
+.it1, .it2, .it3 {
+
+display: inline-block;
+width: 33%;
+height: 300px;
+padding: 5px;
+
+ .center {
+	 display:block;
+	  margin:0 auto;
+ }
+ h1 {
+	 text-align: center;
+ }
+}
+.it3 {
+	float: right;
+}
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .header {
+
+    top: 0;
+    right: 0;
+    left: 0;
+
+    height: 50px;
+  }
+
+
+
+  .logo img {
+    height: 30px;
+  }
+	.nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+	.nav li {float: none;}
+	.nav li a {
+		border-top: 1px solid #eee;
+		border-left: 3px solid transparent;
+		background: #fff;
+		color: #666;
+	}
+	.nav li:first-child a {border-top: none;}
+	.nav li a:hover {
+
+	}
+	#touch-menu {
+    display: block;
+    float: right;
+    margin: -10px 0px;
+    font-size: 15px;
+
+  }
+}
+@media (max-width: 1150px) {
+.image span {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+}
+@media (max-width: 1223px) {
+	.container .clearfix{
+		h2, p, .btn-class {
+			margin-bottom: 100px;
+		}
+	}
+}
+
+@media (max-width: 750px) {
+	.container .clearfix{
+		h2, p, .btn-class {
+			margin-bottom: 100px;
+		}
+	}
+}
