@@ -197,6 +197,39 @@ right: 500px;
 
 }
 
+.lotsfoto {
+
+img {
+	display: inline-block;
+	width: 15%;
+	margin: -5px;
+}
+
+
+.description{
+  width: 100px;
+  border-bottom: 1px solid grey;
+  display: inline-block;
+}
+
+
+}
+.works {
+	margin: 100px 50px 100px 50px;
+	padding-bottom: 50px;
+  h1 {
+	float: left;
+	}
+p {
+	float: right;
+}
+
+}
+
+
+
+
+
 .exp {
 text-align: center;
 h1 {
@@ -236,6 +269,184 @@ padding: 5px;
 }
 }
 
+.form {
+  float: left;
+	width: 50%;
+	h1 {
+		margin-left: 50px;
+	}
+	form {
+
+  margin: 0 auto;
+
+  // positioning context
+  > div {
+    position: relative;
+
+    border-bottom: 1px solid #ccc;
+		padding:  20px 20px 20px 50px;
+
+    // Looks like placeholder
+    > label {
+      opacity: 0.3;
+      font-weight: bold;
+      position: absolute;
+      top: 40px;
+
+      left: 60px;
+    }
+
+    > input[type="text"],
+    > input[type="email"],
+    > input[type="subject"] {
+      width: 100%;
+      border: 1px solid grey;
+      padding: 20px 20px 20px 50px;
+      background: #eee;
+			&:focus {
+
+				// removing default focus style
+				outline: 0;
+				// adding new one
+				background: white;
+
+				& + label {
+					opacity: 0;
+				}
+			}
+
+			&:valid {
+				background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+				background-size: 20px;
+				background-repeat: no-repeat;
+				background-position: 20px 20px;
+				& + label {
+					opacity: 0;
+				}
+			}
+
+			&:invalid:not(:focus):not(:placeholder-shown) {
+				background: pink;
+				& + label {
+					opacity: 0;
+				}
+			}
+
+			&:invalid:focus:not(:placeholder-shown) {
+				& ~ .requirements {
+					max-height: 200px;
+					padding: 0 30px 20px 50px;
+				}
+			}
+
+		}
+
+
+
+
+		> input[type="massage"]{
+			padding: 20px 20px 200px 50px;
+			width: 100%;
+			border: 1px solid grey;
+			background: #eee;
+
+
+
+
+      &:focus {
+
+        // removing default focus style
+        outline: 0;
+        // adding new one
+        background: white;
+
+        & + label {
+          opacity: 0;
+        }
+      }
+
+      &:valid {
+        background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: 20px 20px;
+        & + label {
+          opacity: 0;
+        }
+      }
+
+      &:invalid:not(:focus):not(:placeholder-shown) {
+        background: pink;
+        & + label {
+          opacity: 0;
+        }
+      }
+
+      &:invalid:focus:not(:placeholder-shown) {
+        & ~ .requirements {
+          max-height: 200px;
+          padding: 0 30px 20px 50px;
+        }
+      }
+
+    }
+
+
+    .requirements {
+      padding: 0 30px 0 50px;
+      color: #999;
+      max-height: 0;
+      transition: 0.28s;
+      overflow: hidden;
+      color: red;
+      font-style: italic;
+    }
+
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 20px 0;
+    background: white;
+		border: 2px solid $button-color;
+    color: $button-color;
+
+    padding: 20px;
+		margin-left: 50px;
+    font-size: 1.2rem;
+  }
+
+}
+
+body {
+  background: #333;
+  font-family: 'PT Sans', sans-serif;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+}
+
+
+
+.client {
+  float: right;
+	width: 45%;
+	h1 {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	img {
+		display: inline-block;
+		margin-top: 50px;
+     margin-bottom: 50px;
+		 margin-left: 50px;
+	}
+
+}
 
 
 
@@ -280,6 +491,7 @@ padding: 5px;
     font-size: 15px;
 
   }
+
 }
 @media (max-width: 1150px) {
 .image span {

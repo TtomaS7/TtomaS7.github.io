@@ -230,50 +230,251 @@ header {
   height: auto;
 }
 
-/* line 200, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
+.lotsfoto img {
+  display: inline-block;
+  width: 15%;
+  margin: -5px;
+}
+/* line 209, ../sass/screen.scss */
+.lotsfoto .description {
+  width: 100px;
+  border-bottom: 1px solid grey;
+  display: inline-block;
+}
+
+/* line 217, ../sass/screen.scss */
+.works {
+  margin: 100px 50px 100px 50px;
+  padding-bottom: 50px;
+}
+/* line 220, ../sass/screen.scss */
+.works h1 {
+  float: left;
+}
+/* line 223, ../sass/screen.scss */
+.works p {
+  float: right;
+}
+
+/* line 233, ../sass/screen.scss */
 .exp {
   text-align: center;
 }
-/* line 202, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .exp h1 {
   padding: 5px;
 }
-/* line 205, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .exp p {
   padding: 15px;
 }
-/* line 208, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .exp hr {
   width: 100px;
 }
 
-/* line 217, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .item {
   padding: 100px 0 100px 0;
 }
-/* line 219, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 .item .it1, .item .it2, .item .it3 {
   display: inline-block;
   width: 33%;
   height: 300px;
   padding: 5px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .item .it1 .center, .item .it2 .center, .item .it3 .center {
   display: block;
   margin: 0 auto;
 }
-/* line 230, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .item .it1 h1, .item .it2 h1, .item .it3 h1 {
   text-align: center;
 }
-/* line 234, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .item .it3 {
   float: right;
 }
 
+/* line 272, ../sass/screen.scss */
+.form {
+  float: left;
+  width: 50%;
+}
+/* line 275, ../sass/screen.scss */
+.form h1 {
+  margin-left: 50px;
+}
+/* line 278, ../sass/screen.scss */
+.form form {
+  margin: 0 auto;
+}
+/* line 283, ../sass/screen.scss */
+.form form > div {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 20px 20px 50px;
+}
+/* line 290, ../sass/screen.scss */
+.form form > div > label {
+  opacity: 0.3;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+/* line 299, ../sass/screen.scss */
+.form form > div > input[type="text"],
+.form form > div > input[type="email"],
+.form form > div > input[type="subject"] {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 20px 20px 20px 50px;
+  background: #eee;
+}
+/* line 306, ../sass/screen.scss */
+.form form > div > input[type="text"]:focus,
+.form form > div > input[type="email"]:focus,
+.form form > div > input[type="subject"]:focus {
+  outline: 0;
+  background: white;
+}
+/* line 313, ../sass/screen.scss */
+.form form > div > input[type="text"]:focus + label,
+.form form > div > input[type="email"]:focus + label,
+.form form > div > input[type="subject"]:focus + label {
+  opacity: 0;
+}
+/* line 318, ../sass/screen.scss */
+.form form > div > input[type="text"]:valid,
+.form form > div > input[type="email"]:valid,
+.form form > div > input[type="subject"]:valid {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+}
+/* line 323, ../sass/screen.scss */
+.form form > div > input[type="text"]:valid + label,
+.form form > div > input[type="email"]:valid + label,
+.form form > div > input[type="subject"]:valid + label {
+  opacity: 0;
+}
+/* line 328, ../sass/screen.scss */
+.form form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+.form form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
+.form form > div > input[type="subject"]:invalid:not(:focus):not(:placeholder-shown) {
+  background: pink;
+}
+/* line 330, ../sass/screen.scss */
+.form form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) + label,
+.form form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) + label,
+.form form > div > input[type="subject"]:invalid:not(:focus):not(:placeholder-shown) + label {
+  opacity: 0;
+}
+/* line 336, ../sass/screen.scss */
+.form form > div > input[type="text"]:invalid:focus:not(:placeholder-shown) ~ .requirements,
+.form form > div > input[type="email"]:invalid:focus:not(:placeholder-shown) ~ .requirements,
+.form form > div > input[type="subject"]:invalid:focus:not(:placeholder-shown) ~ .requirements {
+  max-height: 200px;
+  padding: 0 30px 20px 50px;
+}
+/* line 347, ../sass/screen.scss */
+.form form > div > input[type="massage"] {
+  padding: 20px 20px 200px 50px;
+  width: 100%;
+  border: 1px solid grey;
+  background: #eee;
+}
+/* line 356, ../sass/screen.scss */
+.form form > div > input[type="massage"]:focus {
+  outline: 0;
+  background: white;
+}
+/* line 363, ../sass/screen.scss */
+.form form > div > input[type="massage"]:focus + label {
+  opacity: 0;
+}
+/* line 368, ../sass/screen.scss */
+.form form > div > input[type="massage"]:valid {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+}
+/* line 373, ../sass/screen.scss */
+.form form > div > input[type="massage"]:valid + label {
+  opacity: 0;
+}
+/* line 378, ../sass/screen.scss */
+.form form > div > input[type="massage"]:invalid:not(:focus):not(:placeholder-shown) {
+  background: pink;
+}
+/* line 380, ../sass/screen.scss */
+.form form > div > input[type="massage"]:invalid:not(:focus):not(:placeholder-shown) + label {
+  opacity: 0;
+}
+/* line 386, ../sass/screen.scss */
+.form form > div > input[type="massage"]:invalid:focus:not(:placeholder-shown) ~ .requirements {
+  max-height: 200px;
+  padding: 0 30px 20px 50px;
+}
+/* line 395, ../sass/screen.scss */
+.form form > div .requirements {
+  padding: 0 30px 0 50px;
+  color: #999;
+  max-height: 0;
+  transition: 0.28s;
+  overflow: hidden;
+  color: red;
+  font-style: italic;
+}
+/* line 407, ../sass/screen.scss */
+.form form input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 20px 0;
+  background: white;
+  border: 2px solid #77eee6;
+  color: #77eee6;
+  padding: 20px;
+  margin-left: 50px;
+  font-size: 1.2rem;
+}
+/* line 422, ../sass/screen.scss */
+.form body {
+  background: #333;
+  font-family: 'PT Sans', sans-serif;
+  padding: 20px;
+}
+/* line 427, ../sass/screen.scss */
+.form * {
+  box-sizing: border-box;
+}
+
+/* line 435, ../sass/screen.scss */
+.client {
+  float: right;
+  width: 45%;
+}
+/* line 438, ../sass/screen.scss */
+.client h1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* line 442, ../sass/screen.scss */
+.client img {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
 @media (max-width: 768px) {
-  /* line 244, ../sass/screen.scss */
+  /* line 455, ../sass/screen.scss */
   .header {
     top: 0;
     right: 0;
@@ -281,12 +482,12 @@ header {
     height: 50px;
   }
 
-  /* line 255, ../sass/screen.scss */
+  /* line 466, ../sass/screen.scss */
   .logo img {
     height: 30px;
   }
 
-  /* line 258, ../sass/screen.scss */
+  /* line 469, ../sass/screen.scss */
   .nav {
     display: none;
     position: absolute;
@@ -295,12 +496,12 @@ header {
     right: 0;
   }
 
-  /* line 265, ../sass/screen.scss */
+  /* line 476, ../sass/screen.scss */
   .nav li {
     float: none;
   }
 
-  /* line 266, ../sass/screen.scss */
+  /* line 477, ../sass/screen.scss */
   .nav li a {
     border-top: 1px solid #eee;
     border-left: 3px solid transparent;
@@ -308,12 +509,12 @@ header {
     color: #666;
   }
 
-  /* line 272, ../sass/screen.scss */
+  /* line 483, ../sass/screen.scss */
   .nav li:first-child a {
     border-top: none;
   }
 
-  /* line 276, ../sass/screen.scss */
+  /* line 487, ../sass/screen.scss */
   #touch-menu {
     display: block;
     float: right;
@@ -322,20 +523,20 @@ header {
   }
 }
 @media (max-width: 1150px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 497, ../sass/screen.scss */
   .image span {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
 @media (max-width: 1223px) {
-  /* line 294, ../sass/screen.scss */
+  /* line 506, ../sass/screen.scss */
   .container .clearfix h2, .container .clearfix p, .container .clearfix .btn-class {
     margin-bottom: 100px;
   }
 }
 @media (max-width: 750px) {
-  /* line 302, ../sass/screen.scss */
+  /* line 514, ../sass/screen.scss */
   .container .clearfix h2, .container .clearfix p, .container .clearfix .btn-class {
     margin-bottom: 100px;
   }
