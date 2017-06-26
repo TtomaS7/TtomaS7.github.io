@@ -1,0 +1,125 @@
+/* line 3, ../sass/screen.scss */
+* {
+  margin: 0px;
+}
+
+/* line 6, ../sass/screen.scss */
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* line 11, ../sass/screen.scss */
+html {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+/* line 15, ../sass/screen.scss */
+.header {
+  width: 100%;
+  height: 670px;
+  background: #fff url(../images/header/forest.gif);
+}
+
+/* line 21, ../sass/screen.scss */
+.container {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* line 27, ../sass/screen.scss */
+.logo {
+  display: inline-block;
+}
+
+/* line 31, ../sass/screen.scss */
+nav {
+  display: inline-block;
+  float: right;
+  margin-top: 25px;
+}
+
+/* line 37, ../sass/screen.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 41, ../sass/screen.scss */
+.tajam {
+  color: #07f6ec;
+}
+
+/* line 45, ../sass/screen.scss */
+a:hover {
+  color: #07f6ec;
+}
+
+/* line 49, ../sass/screen.scss */
+.alo {
+  width: 100%;
+  height: 670px;
+  background: #150d70;
+  opacity: 0.5;
+}
+
+/* line 55, ../sass/screen.scss */
+.header1 {
+  font-size: 1.8em;
+}
+
+/* line 58, ../sass/screen.scss */
+.text {
+  text-align: center;
+  color: #fff;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* line 66, ../sass/screen.scss */
+.pod-text {
+  font-size: 125%;
+  padding-top: 5%;
+}
+
+/* line 71, ../sass/screen.scss */
+.description {
+  border-bottom: 1px solid #07f6ec;
+  width: 100px;
+  display: inline-block;
+}
+
+/* line 76, ../sass/screen.scss */
+input[type="submit"] {
+  display: block;
+  margin: 50px 0;
+  background: white;
+  border: 2px solid #07f6ec;
+  color: #07f6ec;
+  border-radius: 5px;
+  width: 20%;
+  padding: 15px;
+  margin-left: 50px;
+  font-size: 1.2rem;
+  opacity: 1;
+}
+
+/* line 91, ../sass/screen.scss */
+.layer2 {
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  font-size: 125%;
+  height: auto;
+}
+
+/* line 99, ../sass/screen.scss */
+.left {
+  display: inline-block;
+  float: left;
+  margin-right: 15%;
+}
